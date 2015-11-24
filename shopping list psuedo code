@@ -1,0 +1,26 @@
+//take input textbox put into a list
+
+function addItem(){}
+
+//list:
+//change style of text to show purchased
+
+function checkItem(){}
+
+//delete item from list
+
+function deleteItem(){}
+
+//clear list
+
+function clearList(){}
+
+$(document).ready(function() {
+$("#addItem").on('click', addItem);
+$("#itemList").on('click', clearList);
+
+});
+
+$(".checkBox").on('click', checkItem);
+
+$(".delete").on('click', deleteItem);
